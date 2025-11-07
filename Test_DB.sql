@@ -26,4 +26,5 @@ select * from emp_tbl where fullName not like 'A%';
  -- update --
  update emp_tbl set fullName = 'Sudra', email= 'sudra', City = 'Deran' where emp_id = 2;
  select * from emp_tbl;
+ select min(emp_id) from emp_tbl;
  
